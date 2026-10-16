@@ -1,6 +1,6 @@
 const members = [
     {
-        name: "Muhammad Zen Auladi",
+        name: "Zen Auladi",
         username: "@kokoh_zen",
         bio: "Every person has a story worth knowing.",
         role: "Exploring possibilities",
@@ -27,21 +27,21 @@ const members = [
         audio: "assets/audio/member-03.mp3"
     },
     {
-        name: "Zaki Abqori",
-        username: "@memberfour",
+        name: "Muhammad Naufal Ariadiansyah",
+        username: "@naufaards",
         bio: "Small moments often become the best memories.",
         role: "Making memories",
         image: "assets/images/member-04.jpg",
-        music: "Soundtrack Four",
+        music: "Gone, gone, gone - Philip Philips",
         audio: "assets/audio/member-04.mp3"
     },
     {
-        name: "Member Five",
-        username: "@memberfive",
+        name: "Mochahmad Faris Nur Rizqi",
+        username: "@kalryz",
         bio: "There is always something new to learn.",
         role: "Learning every day",
         image: "assets/images/member-05.jpg",
-        music: "Soundtrack Five",
+        music: "Whatever - Oasis",
         audio: "assets/audio/member-05.mp3"
     },
     {
