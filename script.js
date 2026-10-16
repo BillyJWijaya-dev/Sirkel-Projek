@@ -1,11 +1,11 @@
 const members = [
     {
         name: "Zen Auladi",
-        username: "@kokoh_zen",
+        username: "@zen_auladi",
         bio: "Every person has a story worth knowing.",
         role: "Exploring possibilities",
         image: "assets/images/member-01.jpg",
-        music: "Soundtrack One",
+        music: "Perunggu - 33x",
         audio: "assets/audio/member-01.mp3"
     },
     {
