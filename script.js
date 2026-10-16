@@ -10,7 +10,7 @@ const members = [
     },
     {
         name: "Billy Jonas Wijaya",
-        username: "@zhaoliau",
+        username: "@_zhao.yin",
         bio: "Different perspectives make every connection meaningful.",
         role: "Finding their own path",
         image: "assets/images/member-02.jpg",
