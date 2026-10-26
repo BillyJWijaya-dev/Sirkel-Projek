@@ -15,7 +15,7 @@ const members = [
         role: "Finding their own path",
         image: "assets/images/billy.jpeg",
         music: "Know Me - GEMINI",
-        audio: "assets/audio/Know_me.mp3"
+        audio: "assets/audio/billy.mp3"
     },
     {
         name: "Pandu Satrio",
