@@ -70,26 +70,7 @@ const members = [
         image: "assets/images/nazmy.jpeg",
         music: "Just Give Me A Reason - Pink",
         audio: "assets/audio/nazmy.mp3"
-    },
-    {
-        name: "Member Nine",
-        username: "@membernine",
-        bio: "Every personality adds a different color to our story.",
-        role: "Being themselves",
-        image: "assets/images/member-09.jpg",
-        music: "Soundtrack Nine",
-        audio: "assets/audio/member-09.mp3"
-    },
-    {
-        name: "Member Ten",
-        username: "@memberten",
-        bio: "Ten individuals, connected by one circle.",
-        role: "Part of the story",
-        image: "assets/images/member-10.jpg",
-        music: "Soundtrack Ten",
-        audio: "assets/audio/member-10.mp3"
-    }
-];
+    };
 
 let currentIndex = 0;
 let requestedAudioIndex = null;
