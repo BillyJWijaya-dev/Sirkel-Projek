@@ -59,7 +59,7 @@ const members = [
         bio: "Ga perlu kata-kata, yang penting aksi nyata.",
         role: "Bringing new perspectives",
         image: "assets/images/kiram.jpeg",
-        music: "Outside - Calvin Harris ft. Ellie Goulding",
+        music: "Mimpi Yang Sempurna - Peterpan",
         audio: "assets/audio/kiram.mp3"
     },
     {
@@ -70,7 +70,8 @@ const members = [
         image: "assets/images/nazmy.jpeg",
         music: "Just Give Me A Reason - Pink",
         audio: "assets/audio/nazmy.mp3"
-    };
+    },
+]
 
 let currentIndex = 0;
 let requestedAudioIndex = null;
