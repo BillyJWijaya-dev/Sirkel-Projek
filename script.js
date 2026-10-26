@@ -3,7 +3,7 @@ const members = [
         name: "Zen Auladi",
         username: "@zen_auladi",
         bio: "Bukan orang bener, tapi beneran orang.",
-        role: "Exploring possibilities",
+        role: "PHP - PYTHON",
         image: "assets/images/Zen.jpeg",
         music: "Bintang 5 - Tenxi",
         audio: "assets/audio/zenxi.mp3"
@@ -12,7 +12,7 @@ const members = [
         name: "Billy Jonas Wijaya",
         username: "@_zhao.yin",
         bio: "Aku bukan dipimpin, aku yang memimpin.",
-        role: "Finding their own path",
+        role: "HTML - PYTHON - JAVA SCRIPT - SQL",
         image: "assets/images/billy.jpeg",
         music: "Know Me - GEMINI",
         audio: "assets/audio/billy.mp3"
@@ -21,7 +21,7 @@ const members = [
         name: "Pandu Satrio",
         username: "@pandstrio",
         bio: "Kejarlah cita-cita, jangan dia yang ngga cinta.",
-        role: "Always curious",
+        role: "HTML - PYTHON",
         image: "assets/images/ndu.jpeg",
         music: "Soulmate - Kahitna",
         audio: "assets/audio/pandu.mp3"
@@ -30,7 +30,7 @@ const members = [
         name: "M. Naufal Ariadiansyah",
         username: "@naufaards",
         bio: "A lot has changed, but I'm still here.",
-        role: "Making memories",
+        role: "PYTHON",
         image: "assets/images/naufal.jpeg",
         music: "Can't Take My Eyes Off You - Lula Band",
         audio: "assets/audio/naufall.mp3"
@@ -39,7 +39,7 @@ const members = [
         name: "M. Faris Nur Rizqi",
         username: "@kalryz",
         bio: "Try To Be Better.",
-        role: "Learning every day",
+        role: "HTML - PYTHON",
         image: "assets/images/faris.jpeg",
         music: "Whatever - Oasis",
         audio: "assets/audio/faris.mp3"
@@ -48,7 +48,7 @@ const members = [
         name: "Althafian Rizqullah Susilo",
         username: "@growtaf",
         bio: "Hidup itu sederhana, kita yang membuatnya rumit.",
-        role: "Enjoying the journey",
+        role: "HTML - PYTHON",
         image: "assets/images/althaf.jpeg",
         music: "Haruka - Yoasobi",
         audio: "assets/audio/althaf.mp3"
@@ -57,7 +57,7 @@ const members = [
         name: "Muhamad Kiram Albara",
         username: "@kirrrbara_",
         bio: "Ga perlu kata-kata, yang penting aksi nyata.",
-        role: "Bringing new perspectives",
+        role: "PYTHON",
         image: "assets/images/kiram.jpeg",
         music: "Mimpi Yang Sempurna - Peterpan",
         audio: "assets/audio/kiram.mp3"
@@ -66,7 +66,7 @@ const members = [
         name: "Nazmy",
         username: "@mhiiiee_",
         bio: "Build with intention, refined over time.",
-        role: "Thinking creatively",
+        role: "PYTHON",
         image: "assets/images/nazmy.jpeg",
         music: "Just Give Me A Reason - Pink",
         audio: "assets/audio/nazmy.mp3"
