@@ -2,74 +2,74 @@ const members = [
     {
         name: "Zen Auladi",
         username: "@zen_auladi",
-        bio: "Every person has a story worth knowing.",
+        bio: "Bukan orang bener, tapi beneran orang.",
         role: "Exploring possibilities",
-        image: "assets/images/member-01.jpg",
-        music: "Perunggu - 33x",
-        audio: "assets/audio/member-01.mp3"
+        image: "assets/images/Zen.jpeg",
+        music: "Bintang 5 - Tenxi",
+        audio: "assets/audio/zenxi.mp3"
     },
     {
         name: "Billy Jonas Wijaya",
         username: "@_zhao.yin",
-        bio: "Different perspectives make every connection meaningful.",
+        bio: "Aku bukan dipimpin, aku yang memimpin.",
         role: "Finding their own path",
-        image: "assets/images/member-02.jpg",
-        music: "Soundtrack Two",
-        audio: "assets/audio/member-02.mp3"
+        image: "assets/images/billy.jpeg",
+        music: "Know Me - GEMINI",
+        audio: "assets/audio/Know_me.mp3"
     },
     {
         name: "Pandu Satrio",
-        username: "@ndu",
-        bio: "A new story begins with every experience.",
+        username: "@pandstrio",
+        bio: "Kejarlah cita-cita, jangan dia yang ngga cinta.",
         role: "Always curious",
-        image: "assets/images/member-03.jpg",
-        music: "Soundtrack Three",
-        audio: "assets/audio/member-03.mp3"
+        image: "assets/images/ndu.jpeg",
+        music: "Soulmate - Kahitna",
+        audio: "assets/audio/pandu.mp3"
     },
     {
-        name: "Muhammad Naufal Ariadiansyah",
+        name: "M. Naufal Ariadiansyah",
         username: "@naufaards",
-        bio: "Small moments often become the best memories.",
+        bio: "A lot has changed, but I'm still here.",
         role: "Making memories",
-        image: "assets/images/member-04.jpg",
-        music: "Gone, gone, gone - Philip Philips",
-        audio: "assets/audio/member-04.mp3"
+        image: "assets/images/naufal.jpeg",
+        music: "Can't Take My Eyes Off You - Lula Band",
+        audio: "assets/audio/naufall.mp3"
     },
     {
-        name: "Mochahmad Faris Nur Rizqi",
+        name: "M. Faris Nur Rizqi",
         username: "@kalryz",
-        bio: "There is always something new to learn.",
+        bio: "Try To Be Better.",
         role: "Learning every day",
-        image: "assets/images/member-05.jpg",
+        image: "assets/images/faris.jpeg",
         music: "Whatever - Oasis",
-        audio: "assets/audio/member-05.mp3"
+        audio: "assets/audio/faris.mp3"
     },
     {
-        name: "Member Six",
-        username: "@membersix",
-        bio: "Good company makes the journey better.",
+        name: "Althafian Rizqullah Susilo",
+        username: "@growtaf",
+        bio: "Hidup itu sederhana, kita yang membuatnya rumit.",
         role: "Enjoying the journey",
-        image: "assets/images/member-06.jpg",
-        music: "Soundtrack Six",
-        audio: "assets/audio/member-06.mp3"
+        image: "assets/images/althaf.jpeg",
+        music: "Haruka - Yoasobi",
+        audio: "assets/audio/althaf.mp3"
     },
     {
-        name: "Member Seven",
-        username: "@memberseven",
-        bio: "Everyone brings something different to the circle.",
+        name: "Muhamad Kiram Albara",
+        username: "@kirrrbara_",
+        bio: "Ga perlu kata-kata, yang penting aksi nyata.",
         role: "Bringing new perspectives",
-        image: "assets/images/member-07.jpg",
-        music: "Soundtrack Seven",
-        audio: "assets/audio/member-07.mp3"
+        image: "assets/images/kiram.jpeg",
+        music: "Outside - Calvin Harris ft. Ellie Goulding",
+        audio: "assets/audio/kiram.mp3"
     },
     {
-        name: "Member Eight",
-        username: "@membereight",
-        bio: "The best ideas grow when people connect.",
+        name: "Nazmy",
+        username: "@mhiiiee_",
+        bio: "Build with intention, refined over time.",
         role: "Thinking creatively",
-        image: "assets/images/member-08.jpg",
-        music: "Soundtrack Eight",
-        audio: "assets/audio/member-08.mp3"
+        image: "assets/images/nazmy.jpeg",
+        music: "Just Give Me A Reason - Pink",
+        audio: "assets/audio/nazmy.mp3"
     },
     {
         name: "Member Nine",
