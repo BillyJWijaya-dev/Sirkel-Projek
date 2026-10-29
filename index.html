@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SOLIDARITY DEX</title><link rel="icon" href="assets/images/JESTER.jpeg">
+<title>SOLIDARITY — STAND ARENA</title><link rel="icon" href="assets/images/JESTER.jpeg">
 <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Archivo:wght@500;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=2"></head><body>
+<link rel="stylesheet" href="style.css?v=1"></head><body>
 <button class="btn" id="snd">SFX: ON</button>
-<div id="hud"><img id="ha" alt=""><div class="hi"><b id="hn"></b><div class="xb"><i id="hx"></i></div></div><span class="bg" id="hl"></span><span class="bg cn">KOIN <b id="hc"></b></span><nav><button data-go="sdex">DEX</button><button data-go="sarena">ARENA</button><button data-go="scap">TANGKAP</button><button id="tr">TRAINER</button></nav></div>
+<div id="hud"><img id="ha" alt=""><div class="hi"><b id="hn"></b><div class="xb"><i id="hx"></i></div></div><span class="bg" id="hl"></span><span class="bg cn">KOIN <b id="hc"></b></span><nav><button data-go="sdex">STAND</button><button data-go="sarena">ARENA</button><button data-go="scap">REKRUT</button><button id="tr">PROFIL</button></nav></div>
 <div id="toast"></div>
-<div id="tm" class="mod"><div class="box"><h2>TRAINER</h2><div id="tb"></div><button class="btn" id="tc">TUTUP</button> <button class="btn r" id="rs">RESET GAME</button></div></div>
-<div id="title"><div class="tt"><h1>SOLIDARITY<br><em>QUEST</em></h1><div id="s1"><button class="btn r bl" id="st">PRESS START</button> <button class="btn" id="cont" hidden>LANJUT</button></div><div id="s2" hidden><label class="bg">NAMA TRAINER<input id="tn" maxlength="12" placeholder="Trainer"></label><p class="bg">PILIH PARTNERMU</p><div id="sg"></div><button class="btn r" id="go">MULAI PETUALANGAN</button></div></div></div>
+<div id="tm" class="mod"><div class="box"><h2>PROFIL</h2><div id="tb"></div><button class="btn" id="tc">TUTUP</button> <button class="btn r" id="rs">RESET GAME</button></div></div>
+<div id="title"><div class="tt"><h1>SOLIDARITY<br><em>STAND ARENA</em></h1><div id="s1"><button class="btn r bl" id="st">PRESS START</button> <button class="btn" id="cont" hidden>LANJUT</button></div><div id="s2" hidden><label class="bg">NAMA KAMU<input id="tn" maxlength="12" placeholder="Pengguna"></label><p class="bg">PILIH PARTNERMU</p><div id="sg"></div><button class="btn r" id="go">MULAI PETUALANGAN</button></div></div></div>
 
 <section id="hero"><div class="orb" style="--s:90px;--l:6%;--t:12%;--c:var(--red)" data-d="30"></div><div class="orb" style="--s:56px;--l:84%;--t:20%;--c:var(--yel)" data-d="-40"></div><div class="orb" style="--s:120px;--l:80%;--t:62%;--c:var(--blue)" data-d="22"></div><div class="orb" style="--s:44px;--l:12%;--t:70%;--c:var(--mint)" data-d="-28"></div>
-<div class="wrap"><h1 id="ttl">SOLIDARITY</h1><div class="tag">DEX · Different Minds, One Connection</div><p style="margin-top:26px;font-weight:800">Sentuh hurufnya. Pilih partner. Tantang. Tangkap.</p></div></section>
-<section id="sdex"><div class="wrap"><h2>DEX ANGGOTA</h2><div class="box dex"><div class="list" id="list"></div><div class="scr" id="scr"></div></div></div></section>
-<section id="sarena"><div class="wrap"><h2>ARENA</h2><div class="box arena"><div class="fighters"><div class="fg" id="fp"></div><div class="fg" id="fe"></div></div><div id="log">Pilih partner di Dex, lalu tekan MULAI.</div><div id="moves"></div><button class="btn r" id="start" style="margin-top:12px">MULAI BATTLE</button></div></div></section>
-<section id="scap"><div class="wrap"><h2>TANGKAP!</h2><div class="box cap"><p class="bg" id="cm">Ada anggota liar muncul!</p><div class="wild" id="wild"><img alt=""></div><div class="ball" id="ball" title="Lempar"></div><button class="btn" id="nx">CARI LAGI</button><div id="party"></div></div></div></section>
-<footer>SOLIDARITY · Sistem Informasi · dibuat bareng-bareng<br><small>Terinspirasi game monster-collecting. Bukan produk resmi.</small></footer>
-<script src="script.js?v=2"></script></body></html>
+<div class="wrap"><h1 id="ttl">SOLIDARITY</h1><div class="tag">STAND ARENA · Different Minds, One Connection</div><p style="margin-top:26px;font-weight:800">Sentuh hurufnya. Bangkitkan Stand. Bertarung. Rekrut.</p></div></section>
+<section id="sdex"><div class="wrap"><h2>DAFTAR STAND</h2><div class="box dex"><div class="list" id="list"></div><div class="scr" id="scr"></div></div></div></section>
+<section id="sarena"><div class="wrap"><h2>ARENA STAND</h2><div class="box arena"><div class="fighters"><div class="fg" id="fp"></div><div class="fg" id="fe"></div></div><div id="log">Pilih partner di Daftar Stand, lalu tekan MULAI.</div><div id="moves"></div><p id="stt" class="stt"></p><button class="btn r" id="start" style="margin-top:12px">MULAI BATTLE</button> <button class="btn b" id="boss" style="margin-top:12px">TANTANG BOSS (Lv 3)</button></div></div></section>
+<section id="scap"><div class="wrap"><h2>REKRUT!</h2><div class="box cap"><p class="bg" id="cm">Pengguna Stand misterius muncul!</p><div class="wild" id="wild"><img alt=""></div><div class="ball" id="ball" title="Lempar"></div><button class="btn" id="nx">CARI LAGI</button><div id="party"></div></div></div></section>
+<footer>SOLIDARITY · Sistem Informasi · dibuat bareng-bareng<br><small>Situs penggemar terinspirasi JoJo's Bizarre Adventure. Bukan produk resmi.</small></footer>
+<script src="script.js?v=1"></script></body></html>

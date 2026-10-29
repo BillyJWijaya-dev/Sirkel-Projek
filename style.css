@@ -81,3 +81,32 @@ body:not(.lock) #hud{transform:none}
 #sg{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:12px 0 22px}#sg button{width:62px;height:62px;border-radius:50%;border:4px solid #fff;padding:0;overflow:hidden;background:#555;transition:transform .15s}
 #sg button:hover{transform:scale(1.15)}#sg button.on{border-color:var(--yel);transform:scale(1.25);box-shadow:0 0 0 4px var(--red)}#sg img{width:100%;height:100%;object-fit:cover}
 @media(max-width:800px){#hud nav button{padding:4px 6px}.hi{display:none}#hud{gap:6px;padding:6px 8px}}
+
+/* ===== tema JoJo: ungu, magenta, oranye ===== */
+:root{--cream:#1b0a33;--ink:#14061f;--red:#ff2e93;--yel:#ffb703;--blue:#7b2cbf;--mint:#00d4c8}
+body{color:#fff;background:#1b0a33 radial-gradient(circle,rgba(255,46,147,.18) 2px,transparent 2.4px) 0 0/18px 18px}
+h1,h2,h3,.bg,.btn{font-style:italic}.btn{color:#14061f}.btn.r,.btn.b{color:#fff}
+h2{text-shadow:3px 3px 0 var(--red)}
+.box,.scr,.it,.fg,.mod .box,#tb{color:var(--ink)}.box{border-color:#14061f;box-shadow:6px 6px 0 var(--red)}
+#hud .hi b{color:#fff}#hud nav button{color:#14061f}#hud{border-bottom-color:var(--red)}
+#hero::before,#hero::after{content:"ゴゴゴゴゴゴ";position:absolute;top:0;bottom:0;font-size:5rem;line-height:1;writing-mode:vertical-rl;color:rgba(255,46,147,.22);font-weight:800;animation:gg 2.4s ease-in-out infinite}
+#hero::before{left:2%}#hero::after{right:2%;animation-delay:-1.2s}@keyframes gg{50%{transform:translateY(-14px) scale(1.05)}}
+.dex{background:linear-gradient(135deg,#ff2e93,#7b2cbf)}.scr{background:#e9d8ff;box-shadow:inset 0 0 0 6px #cfb3f5}
+.ph{animation:aura 2.2s ease-in-out infinite}@keyframes aura{50%{box-shadow:0 0 0 5px var(--tc),0 0 30px 10px var(--tc)}}
+.gz{position:absolute;right:6px;bottom:2px;font-size:1.6rem;font-weight:800;color:#fff;-webkit-text-stroke:2px var(--ink);opacity:.9;animation:gg 1.6s ease-in-out infinite}
+.nm{font-style:italic;color:var(--tc);-webkit-text-stroke:1px var(--ink)}.why{font-size:.8rem;font-weight:800;margin:4px 0}
+.rw{display:flex;align-items:center;gap:10px}.rd{width:150px;flex:none;overflow:visible}.gl{display:grid;grid-template-columns:1fr 1fr;gap:3px 12px;font-size:.68rem;font-weight:800}.gl b{color:var(--tc);font-family:'Bungee';font-size:.85rem}
+.arena{background:repeating-conic-gradient(#ff2e93 0 7deg,#7b2cbf 7deg 14deg)}.fg{position:relative}.sn{display:block;font-size:.6rem;font-weight:800;opacity:.7;margin-top:2px}
+.fxt{position:absolute;left:50%;top:10%;z-index:5;transform:translateX(-50%);font-family:'Bungee';font-size:2rem;color:var(--yel);-webkit-text-stroke:2px var(--ink);text-shadow:3px 3px 0 var(--red);pointer-events:none;animation:fxt .7s ease-out forwards}
+@keyframes fxt{from{transform:translateX(-50%) scale(.4) rotate(-10deg)}30%{transform:translateX(-50%) scale(1.3) rotate(6deg)}to{transform:translateX(-50%) translateY(-30px) scale(1);opacity:0}}
+.cap{background:linear-gradient(135deg,#7b2cbf,#ff2e93)}.wild{background:#ffe6a1}
+/* panah Stand pengganti bola */
+.ball{width:16px;height:90px;border:3px solid var(--ink);border-radius:3px;background:linear-gradient(90deg,#9a9a9a,#eee,#9a9a9a);margin:34px auto 12px}
+.ball::after{content:"";position:absolute;left:50%;top:-34px;width:0;height:0;margin:0;background:none;border:18px solid transparent;border-top:0;border-bottom:30px solid var(--ink);border-radius:0;transform:translateX(-50%)}
+.ball::before{content:"";position:absolute;left:50%;top:-27px;width:0;height:0;border:12px solid transparent;border-top:0;border-bottom:21px solid #ddd;transform:translateX(-50%);z-index:1}
+@media(max-width:800px){.rw{flex-direction:column;align-items:flex-start}}
+
+.stt{margin:8px 0 0;font-size:.74rem;font-weight:800;color:#fff;text-shadow:1px 1px 0 var(--ink);min-height:1.2em}
+.btn.sp{background:linear-gradient(90deg,#ff2e93,#ffb703);color:#14061f}.btn[disabled]{opacity:.45;cursor:not-allowed;box-shadow:2px 2px 0 var(--ink)}
+.spl{margin:4px 0;font-size:.74rem;font-weight:800;color:#b3125f}
+.fg.boss{background:linear-gradient(#ffe6a1,#fff)}.fg.boss img{border-color:var(--yel);box-shadow:0 0 0 4px var(--red),0 0 26px 6px var(--red);animation:aura 1.6s infinite}
